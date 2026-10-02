@@ -33,19 +33,12 @@ var index_config_default = {
   uc: {
     cookie: "cookie",
     token: "token",
-    refreshtoken: "refreshtoken",
     ut: "ut"
   },
-  baidu: {
-    cookie: "cookie"
-  },
-  wuming: {
+  y115: {
     cookie: ""
   },
-  douban: {
-    extend: ""
-  },
-  y115: {
+  baidu: {
     cookie: ""
   },
   muou: {
@@ -54,58 +47,30 @@ var index_config_default = {
   wogg: {
     url: ""
   },
-  zhizhen: {
-    url: ""
-  },
-  duoduo: {
-    url: ""
-  },
-  huban: {
-    url: ""
-  },
-  erxiao: {
-    url: ""
-  },
-  guanying: {
-    url: ""
-  },
-  qwmkv: {
-    url: ""
-  },
-  qiwei: {
-    url: ""
-  },
-  jutou: {
-    url: ""
-  },
-  pan123ziyuan: {
-    cookie: ""
-  },
-  guangyazhenying: {
-    cookie: ""
-  },
-  panlian: {
-    account: "",
-    password: ""
-  },
   leijing: {
     url: ""
   },
   tgsou: {
-    pic: false,
+    tgPic: false,
     count: 0,
     url: "",
     channelUsername: ""
   },
   tgchannel: {},
-  bili: {
-    categories: "",
-    cookie: ""
-  },
   sites: {
     list: []
   },
   pans: {
+    list: []
+  },
+  danmu: {
+    urls: [{ address: "https://danmuapi-ten-iota.vercel.app", name: "默认服务器" }],
+    autoPush: true
+  },
+  t4: {
+    list: []
+  },
+  cms: {
     list: []
   },
   alist: [
@@ -121,7 +86,7 @@ var index_config_default = {
   color: [
     {
       light: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cefd4d3f5b8c5a66/photo_2025-08-01_11-09-06.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pptcej.webp",
         bgMask: "0x50ffffff",
         primary: "0xff446732",
         onPrimary: "0xffffffff",
@@ -155,7 +120,7 @@ var index_config_default = {
         surfaceTint: "0xff446732"
       },
       dark: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/3885167c85e1c977/photo_2025-08-01_11-09-06 (2).jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pptg3z.webp",
         bgMask: "0x50000000",
         primary: "0xffaad291",
         onPrimary: "0xff173807",
@@ -191,7 +156,7 @@ var index_config_default = {
     },
     {
       light: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cefd4d3f5b8c5a66/photo_2025-08-01_11-09-06.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pi2rpw.webp",
         bgMask: "0x50ffffff",
         primary: "0xff666014",
         onPrimary: "0xffffffff",
@@ -225,7 +190,7 @@ var index_config_default = {
         surfaceTint: "0xff666014"
       },
       dark: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/3885167c85e1c977/photo_2025-08-01_11-09-06 (2).jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/pi2reo.webp",
         bgMask: "0x50000000",
         primary: "0xffd1c973",
         onPrimary: "0xff353100",
@@ -261,7 +226,7 @@ var index_config_default = {
     },
     {
       light: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/66537cf7d0225c8e/photo_2025-08-01_16-02-38.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/qrnuwt.webp",
         bgMask: "0x50ffffff",
         primary: "0xFF2B6C00",
         onPrimary: "0xFFFFFFFF",
@@ -295,7 +260,7 @@ var index_config_default = {
         surfaceTint: "0xFF2B6C00"
       },
       dark: {
-        bg: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/d026f7c9a068661a/photo_2025-08-01_16-02-39.jpg",
+        bg: "https://i2.100024.xyz/2024/01/13/qrc37o.webp",
         bgMask: "0x50000000",
         primary: "0xFF8CDA60",
         onPrimary: "0xFF133800",
